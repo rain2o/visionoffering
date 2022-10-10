@@ -29,5 +29,9 @@
   max-width: 220px;
 }
 
+.v-sheet.v-card:not(.v-sheet--outlined) {
+  box-shadow: none !important;
+}
+
 
 

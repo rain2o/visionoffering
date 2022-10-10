@@ -2351,6 +2351,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/vuetify@npm:^1.12.3":
+  version: 1.12.3
+  resolution: "@nuxtjs/vuetify@npm:1.12.3"
+  dependencies:
+    deepmerge: ^4.2.2
+    sass: ~1.32.13
+    sass-loader: ^10.2.0
+    vuetify: ^2.6
+    vuetify-loader: ^1.7.3
+  checksum: bfadb3641330e29c76bc278768cf6dbe371360508cc94801c209c5d37dc360ed29bc2265da3db14f3d2940a9171db09f488edd1413c9a41c05f13bc2ecb8a651
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/youch@npm:^4.2.3":
   version: 4.2.3
   resolution: "@nuxtjs/youch@npm:4.2.3"
@@ -3158,7 +3171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn-walk@npm:^8.0.0, acorn-walk@npm:^8.0.2":
+"acorn-walk@npm:^8.0.0, acorn-walk@npm:^8.0.2, acorn-walk@npm:^8.2.0":
   version: 8.2.0
   resolution: "acorn-walk@npm:8.2.0"
   checksum: 1715e76c01dd7b2d4ca472f9c58968516a4899378a63ad5b6c2d668bba8da21a71976c14ec5f5b75f887b6317c4ae0b897ab141c831d741dc76024d8745f1ad1
@@ -3183,7 +3196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.0.4, acorn@npm:^8.1.0, acorn@npm:^8.5.0, acorn@npm:^8.8.0":
+"acorn@npm:^8.0.4, acorn@npm:^8.1.0, acorn@npm:^8.4.1, acorn@npm:^8.5.0, acorn@npm:^8.8.0":
   version: 8.8.0
   resolution: "acorn@npm:8.8.0"
   bin:
@@ -4368,6 +4381,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"callsite@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "callsite@npm:1.0.0"
+  checksum: 569686d622a288a4f0a827466c2f967b6d7a98f2ee1e6ada9dcf5a6802267a5e2a995d40f07113b5f95c7b2b2d5cbff4fdde590195f2a8bed24b829d048688f8
+  languageName: node
+  linkType: hard
+
 "callsites@npm:^2.0.0":
   version: 2.0.0
   resolution: "callsites@npm:2.0.0"
@@ -5549,6 +5569,15 @@ __metadata:
   dependencies:
     ms: ^2.1.1
   checksum: b3d8c5940799914d30314b7c3304a43305fd0715581a919dacb8b3176d024a782062368405b47491516d2091d6462d4d11f2f4974a405048094f8bfebfa3071c
+  languageName: node
+  linkType: hard
+
+"decache@npm:^4.6.0":
+  version: 4.6.1
+  resolution: "decache@npm:4.6.1"
+  dependencies:
+    callsite: ^1.0.0
+  checksum: 3e8cf879ecad1ebc1a0fed782d008ea4f331c2a3688de3b3f18fca03e51b3aa829be90ee0b7c6e1ebc0b0a0f4e911529efdfb3cef28d69b9605131b7c69daea9
   languageName: node
   linkType: hard
 
@@ -13450,7 +13479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:10":
+"sass-loader@npm:10, sass-loader@npm:^10.2.0":
   version: 10.3.1
   resolution: "sass-loader@npm:10.3.1"
   dependencies:
@@ -13485,6 +13514,17 @@ __metadata:
   bin:
     sass: sass.js
   checksum: 7d769ed08efce4e6134e0f3dc11c4f07e32c413ac8eb43c5855f2686890fdcbd80da34165c91fb4ba407f478ca108e171574b5a60cb9814a5ed09d80f6014f96
+  languageName: node
+  linkType: hard
+
+"sass@npm:~1.32.13":
+  version: 1.32.13
+  resolution: "sass@npm:1.32.13"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+  bin:
+    sass: sass.js
+  checksum: 51b798280bd96c8e8d580592bcd40947075e9e55109bbc5e21037427ac2a78e58d3c3cf4b8b33ac9d592758376597d15cd28ddde1cda2885d19791d6321989d4
   languageName: node
   linkType: hard
 
@@ -15540,6 +15580,7 @@ __metadata:
     "@nuxtjs/eslint-module": ^3.1.0
     "@nuxtjs/stylelint-module": ^4.1.0
     "@nuxtjs/tailwindcss": ^5.3.3
+    "@nuxtjs/vuetify": ^1.12.3
     "@vue/test-utils": ^1.3.0
     babel-core: 7.0.0-bridge.0
     babel-jest: ^29.1.2
@@ -15723,6 +15764,42 @@ __metadata:
     "@vue/compiler-sfc": 2.7.10
     csstype: ^3.1.0
   checksum: 97887eea9ae0c7ec7309dcaed1ac9bb65803af235f63f629fe21df959be3c1b801f8aa7d1e85428624e149e5f47706950d0efe09f19b6a6e3b4d38a6352d5c71
+  languageName: node
+  linkType: hard
+
+"vuetify-loader@npm:^1.7.3":
+  version: 1.9.2
+  resolution: "vuetify-loader@npm:1.9.2"
+  dependencies:
+    acorn: ^8.4.1
+    acorn-walk: ^8.2.0
+    decache: ^4.6.0
+    file-loader: ^6.2.0
+    loader-utils: ^2.0.0
+  peerDependencies:
+    gm: ^1.23.0
+    pug: ^2.0.0 || ^3.0.0
+    sharp: "*"
+    vue: ^2.7.2
+    vuetify: ^1.3.0 || ^2.0.0
+    webpack: ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    gm:
+      optional: true
+    pug:
+      optional: true
+    sharp:
+      optional: true
+  checksum: 4e04323092e017f37e641940269443434055e3b01ffb8f7f05b3e79c3ff477cda0fc4f2f2b095b51f4e1f5435c3264772477b49ac2cf0dcb8f0ac04b4f18418b
+  languageName: node
+  linkType: hard
+
+"vuetify@npm:^2.6":
+  version: 2.6.11
+  resolution: "vuetify@npm:2.6.11"
+  peerDependencies:
+    vue: ^2.6.4
+  checksum: b7d1b571dbe0f493e5cdf1dbb8b93b7667edef7f65094597d66f14741ff0f2ff233f0afbc94014bcb59abf600777155f4e2b4b70fb57ffd6b5365a0039d96e7b
   languageName: node
   linkType: hard
 

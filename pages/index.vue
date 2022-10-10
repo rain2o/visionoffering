@@ -27,13 +27,44 @@
         </div>
       </div>
 
-        <FullBanner />
+      <FullBanner />
+
     </div>
+
+    <v-card>
+      <div class="text-center mx-auto">
+        <div class="mx-auto text-left lg:max-w-7xl">
+
+          <v-tabs
+            v-model="tab"
+            align-with-title
+          >
+            <v-tabs-slider></v-tabs-slider>
+            <v-tab key="Campaign">Campaign</v-tab>
+            <v-tab key="FAQ">FAQ</v-tab>
+            <v-tab key="Updates">Updates</v-tab>
+          </v-tabs>
+
+
+          <v-tabs-items v-model="tab">
+            <v-tab-item key="Campaign">campaign content</v-tab-item>
+            <v-tab-item key="FAQ">faq content</v-tab-item>
+            <v-tab-item key="Updates">update content</v-tab-item>
+          </v-tabs-items>
+        </div>
+      </div>
+    </v-card>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data() {
+    return {
+      tab: null,
+   }
+  },
 }
 </script>
