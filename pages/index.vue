@@ -47,9 +47,9 @@
 
 
           <v-tabs-items v-model="tab">
-            <v-tab-item key="Campaign">campaign content</v-tab-item>
-            <v-tab-item key="FAQ">faq content</v-tab-item>
-            <v-tab-item key="Updates">update content</v-tab-item>
+            <v-tab-item key="Campaign"><CampaignTab /></v-tab-item>
+            <v-tab-item key="FAQ"><FaqTab /></v-tab-item>
+            <v-tab-item key="Updates"><UpdateTab /></v-tab-item>
           </v-tabs-items>
         </div>
       </div>
