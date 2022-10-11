@@ -10,7 +10,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit.</span>
+            <span class="text-left"><strong>COMPLETED: Goal #1: $250,000</strong> <br />Knoxville Location Upgrade</span>
           </div>
         </div>
 
@@ -21,7 +21,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit.</span>
+            <span class="text-left"><strong>Current: Goal #2: $1,000,000</strong> <br />Counseling Center</span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit.</span>
+            <span class="text-left"><strong>Next: Goal #3: $2,000,000</strong> <br />Some Other Amazing Thing</span>
           </div>
         </div>
       </div>
