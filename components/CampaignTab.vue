@@ -7,7 +7,7 @@
                 <img
                   src="~/static/images/campaign/worship.jpg"
                   alt="icon"
-                  class=""
+                  class="rounded-md shadow-2xl"
                 >
       </div>
 
@@ -24,7 +24,7 @@
       <img
         src="~/static/images/campaign/goal-1.jpg"
         alt="icon"
-        class=""
+        class="rounded-md shadow-2xl"
       >
     </div>
     <div class="col-span-12 pt-10">
