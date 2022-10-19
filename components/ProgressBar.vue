@@ -2,21 +2,31 @@
   <div class = "progress-bar">
     <v-app id="doesitmatter">
       <v-progress-linear
+        v-model="percentConvert"
         color="saltydog"
         height="10"
-        v-model="valueDeterminate"
       ></v-progress-linear>
     </v-app>
-    <h2>{{ givenAmount }}</h2>
  </div>
 </template>
 
 <script>
+
 export default {
   name: 'ProgressBar',
-  data () {
-    return {
-      valueDeterminate: 50,
+  props: {
+    givingAmount: {
+      type: Number,
+      required: true
+    },
+    givingGoal: {
+      type: Number,
+      required: true
+    },
+  },
+  computed: {
+    percentConvert() {
+      return this.givingAmount / this.givingGoal * 100
     }
   },
 }
