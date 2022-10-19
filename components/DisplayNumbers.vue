@@ -11,7 +11,7 @@
     </div>
 
     <div class="py-3">
-      <h2 class="font-bold text-4xl">16</h2>
+      <h2 class="font-bold text-4xl">{{daysRemaining}}</h2>
       <p>Days to Go</p>
     </div>
   </div>
@@ -29,6 +29,17 @@ export default {
       type: Number,
       required: true
     },
-  }
+  },
+  computed: {
+    daysRemaining() {
+      const d1 = new Date();
+      const year = d1.toLocaleString("default", { year: "numeric" });
+      const month = d1.toLocaleString("default", { month: "2-digit" });
+      const day = d1.toLocaleString("default", { day: "2-digit" });
+
+      const formattedDate = day + month + year;
+      return formattedDate
+    }
+  },
 }
 </script>
