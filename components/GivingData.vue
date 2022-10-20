@@ -1,7 +1,7 @@
 <template>
   <div>
-    <ProgressBar :giving-amount="potato.givingAmount" :giving-goal="potato.givingGoal"  />
-    <DisplayNumbers :giving-amount="potato.givingAmount" :giving-goal="potato.givingGoal" />
+    <ProgressBar :giving-amount="givingAmount" :giving-goal="givingGoal"/>
+    <DisplayNumbers :giving-amount="givingAmount" :giving-goal="givingGoal"/>
   </div>
 </template>
 
@@ -17,10 +17,8 @@ export default {
   },
   data() {
     return {
-      potato: {
-        givingAmount: 100000,
-        givingGoal: 200000
-      }
+      givingAmount: 100000,
+      givingGoal: 200000
     }
   }
 }
