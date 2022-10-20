@@ -74,7 +74,14 @@ export default {
   },
   head() {
     return {
-      title: "The Vision Offering 2022"
+      title: "The Vision Offering 2022",
+      meta:[
+        { hid: 'og-type', property: 'og:type', content: 'The Vision Offering 2022' },
+        { hid: 'og-desc', property: 'og:description', content: 'THIS CONTENT NEEDS TO BE REWRITTEN' },
+        { hid: 'og-image', property: 'og:image',
+          content: '/static/images/updates/update-1.jpg'
+        },
+      ]
     };
   },
 }
