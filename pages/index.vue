@@ -33,7 +33,7 @@
 
     <v-card>
       <div class="text-center mx-auto">
-        <div class="mx-auto text-left lg:max-w-7xl">
+        <div class="mx-auto text-left px-5 md:max-w-7xl md:mx-auto pt-5">
 
           <v-tabs
             v-model="tab"
