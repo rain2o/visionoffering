@@ -72,5 +72,10 @@ export default {
       tab: null,
     }
   },
+  head() {
+    return {
+      title: "The Vision Offering 2022"
+    };
+  },
 }
 </script>
