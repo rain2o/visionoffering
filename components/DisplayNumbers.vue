@@ -32,13 +32,12 @@ export default {
   },
   computed: {
     daysRemaining() {
-      const d1 = new Date();
-      const year = d1.toLocaleString("default", { year: "numeric" });
-      const month = d1.toLocaleString("default", { month: "2-digit" });
-      const day = d1.toLocaleString("default", { day: "2-digit" });
+      const today = new Date();
+      const end = new Date("2022-11-20");
+      const millisecondsInDay = 1000*60*60*24;
+      const diff = end.getTime() - today.getTime();
 
-      const formattedDate = day + month + year;
-      return formattedDate
+      return Math.ceil(diff / millisecondsInDay);
     }
   },
 }
