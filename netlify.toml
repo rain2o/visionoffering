@@ -2,6 +2,8 @@
    command = "nuxt dev"
 
 [build]
+  command = "yarn build"
+  publish = ".nuxt"
   functions = "functions"
 
 [functions]
