@@ -1,4 +1,8 @@
 export default {
+  // Fix Netlify's routing issue with Nuxtc
+  generate: {
+    fallback: true
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'visionoffering',
