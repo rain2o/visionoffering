@@ -30,7 +30,7 @@ export default {
     const { totalGiven, totalGivers } = await this.$axios.$get(
       '/.netlify/functions/giving-data'
     )
-    this.givingAmount = Number(totalGiven || 0)
+    this.givingAmount = Number(totalGiven / 100 || 0)
     this.numberOfGivers = Number(totalGivers || 0)
   },
   fetchOnServer: false,
