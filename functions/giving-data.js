@@ -19,6 +19,8 @@ const END_DATE = new Date("2022-11-21").valueOf() / 1000
 export async function handler() {
   try {
     const visionFund = await getVisionFund();
+    // used for comparison later
+    const originalVisionFund = JSON.stringify(visionFund);
     const visionPaymentIntents = await getVisionFundPaymentIntents(visionFund.lastDonation);
 
     const givers = [];
@@ -38,7 +40,10 @@ export async function handler() {
     })
     visionFund.totalGivers += givers.length;
 
-    await saveVisionFund(visionFund);
+    // Only update the DB if values actually changed.
+    if (JSON.stringify(visionFund) !== originalVisionFund) {
+      await saveVisionFund(visionFund);
+    }
 
     return {
       statusCode: 200,
