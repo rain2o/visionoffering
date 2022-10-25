@@ -1,9 +1,9 @@
 [dev]
-   command = "yarn dev"
+   command = "nuxt dev"
 
 [build]
-  command = "yarn generate"
-  publish = "dist"
+  command = "yarn build"
+  publish = ".nuxt"
   functions = "functions"
 
 [functions]
