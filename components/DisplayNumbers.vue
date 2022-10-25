@@ -5,11 +5,24 @@
         v-if="givingAmount !== undefined"
         class="text-blue font-bold text-4xl"
       >
-        ${{ Number(givingAmount).toLocaleString() }}
+        {{
+          Number(givingAmount).toLocaleString('en-US', {
+            style: 'currency',
+            currency: 'USD',
+          })
+        }}
       </h2>
       <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
 
-      <p>Given of ${{ Number(givingGoal).toLocaleString() }}</p>
+      <p>
+        Given of
+        {{
+          Number(givingGoal).toLocaleString('en-US', {
+            style: 'currency',
+            currency: 'USD',
+          })
+        }}
+      </p>
     </div>
 
     <div class="py-3">
