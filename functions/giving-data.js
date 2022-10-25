@@ -1,8 +1,6 @@
 import Stripe from "stripe";
 import Redis from "ioredis"
 
-const HOST = process.env.BASE_URL || "localhost:8888"
-
 // setup Redis client
 const REDIS_KEY = "vision_fund";
 const redisPass = process.env.REDIS_PASSWORD;
@@ -49,12 +47,6 @@ export async function handler() {
 
     return {
       statusCode: 200,
-      // To enable CORS
-      headers: {
-        'Access-Control-Allow-Origin': HOST,
-        'Access-Control-Allow-Headers': 'Content-Type',
-        'Access-Control-Allow-Methods': 'GET'
-      },
       body: JSON.stringify(visionFund),
     }
   } catch (error) {
