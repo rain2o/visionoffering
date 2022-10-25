@@ -59,7 +59,7 @@ export async function handler() {
 /**
  * Retrieve the vision fund data we have stored already.
  * Returns default values of 0 if nothing found.
- * @returns {object} { totalGiven: number, totalGivers: number, lastDonation: number }
+ * @returns {Promise<object>} { totalGiven: number, totalGivers: number, lastDonation: number }
  */
 const getVisionFund = async () => {
   const visionFundString = await redisClient.get(REDIS_KEY)
@@ -85,7 +85,7 @@ const saveVisionFund = async (visionFund) => {
  * Retrieve all payment intents within the date range that are for
  * the Vision Fund
  * @param {number} startDate Donations after the given date in seconds
- * @returns {array} Stripe Payment Intents with Vision Fund in metadata
+ * @returns {Promise<array>} Stripe Payment Intents with Vision Fund in metadata
  */
 const getVisionFundPaymentIntents = async (startDate) => {
   const response = await stripe.paymentIntents.search({
