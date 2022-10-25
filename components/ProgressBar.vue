@@ -1,33 +1,35 @@
 <template>
-  <div class = "progress-bar">
+  <div class="progress-bar">
     <v-app id="doesitmatter">
       <v-progress-linear
+        v-if="givingAmount !== undefined"
         v-model="percentConvert"
         color="saltydog"
         height="10"
-      ></v-progress-linear>
+      />
+      <v-progress-linear v-else indeterminate color="saltydog" height="10" />
     </v-app>
- </div>
+  </div>
 </template>
 
 <script>
-
 export default {
   name: 'ProgressBar',
   props: {
     givingAmount: {
       type: Number,
-      required: true
+      required: false,
+      default: undefined,
     },
     givingGoal: {
       type: Number,
-      required: true
+      required: true,
     },
   },
   computed: {
     percentConvert() {
-      return this.givingAmount / this.givingGoal * 100
-    }
+      return (this.givingAmount / this.givingGoal) * 100
+    },
   },
 }
 </script>
