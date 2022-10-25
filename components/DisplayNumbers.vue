@@ -1,12 +1,22 @@
 <template>
   <div class="text-left">
     <div class="py-3">
-      <h2 class="text-blue font-bold text-4xl">${{ Number(givingAmount).toLocaleString() }}</h2>
+      <h2
+        v-if="givingAmount !== undefined"
+        class="text-blue font-bold text-4xl"
+      >
+        ${{ Number(givingAmount).toLocaleString() }}
+      </h2>
+      <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
+
       <p>Given of ${{ Number(givingGoal).toLocaleString() }}</p>
     </div>
 
     <div class="py-3">
-      <h2 class="font-bold text-4xl">387</h2>
+      <h2 v-if="givers !== undefined" class="font-bold text-4xl">
+        {{ givers }}
+      </h2>
+      <v-progress-circular v-else indeterminate :size="40" />
       <p>Givers</p>
     </div>
 
@@ -23,12 +33,18 @@ export default {
   props: {
     givingAmount: {
       type: Number,
-      required: true
+      required: false,
+      default: undefined,
     },
     givingGoal: {
       type: Number,
-      required: true
+      required: true,
     },
-  }
+    givers: {
+      type: Number,
+      required: false,
+      default: undefined,
+    },
+  },
 }
 </script>
