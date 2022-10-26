@@ -10,7 +10,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>COMPLETED: Goal #1: $250,000</strong> <br />Knoxville Location Upgrade</span>
+            <span class="text-left"><strong>CURRENT: Goal #1 - $374,000</strong> <br />Knoxville Location Renovation</span>
           </div>
         </div>
 
@@ -21,7 +21,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Current: Goal #2: $1,000,000</strong> <br />Counseling Center</span>
+            <span class="text-left"><strong>NEXT: Goal #2 - $599,000</strong> <br />Counseling Ministry Start-Up </span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Next: Goal #3: $2,000,000</strong> <br />Some Other Amazing Thing</span>
+            <span class="text-left"><strong>Goal #3: $1,104,000</strong> <br />Maryville Location Expansion</span>
           </div>
         </div>
       </div>
