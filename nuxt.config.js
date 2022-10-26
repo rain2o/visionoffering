@@ -1,4 +1,9 @@
 export default {
+  // Fix Netlify's routing issue with Nuxtc
+  generate: {
+    fallback: true
+  },
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'visionoffering',
@@ -21,7 +26,7 @@ export default {
     // CSS file in the project
     '~/assets/css/main.css',
     // SCSS file in the project
-     '~/assets/css/main-sass.scss'
+    '~/assets/css/main-sass.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -52,7 +57,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseUrl: '/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

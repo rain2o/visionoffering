@@ -29,7 +29,7 @@
           <div class="box">
             <img
               src="/images/icon.png"
-              alt="icon"
+              alt="i
               class="icon-width m-3"
             >
             <span class="text-left"><strong>Goal #3: $1,104,000</strong> <br />Maryville Location Expansion</span>

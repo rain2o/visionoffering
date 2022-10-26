@@ -1,0 +1,10 @@
+[dev]
+   command = "nuxt dev"
+
+[build]
+  command = "yarn generate"
+  publish = "dist"
+  functions = "functions"
+
+[functions]
+  node_bundler = "esbuild"

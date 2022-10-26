@@ -88,3 +88,11 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Local Netlify folder
+.netlify
+
+
+# More Yarn Stuff
+/.yarn/unplugged
+/.yarn/cache
