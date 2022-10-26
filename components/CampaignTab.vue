@@ -5,7 +5,7 @@
       <div class="col-span-12">
         <h3 class=" uppercase bold text-2xl pb-5">Why we give</h3>
                 <img
-                  src="~/static/images/campaign/worship.jpg"
+                  src="~/static/images/campaign/Worship.jpg"
                   alt="icon"
                   class="rounded-md shadow-2xl"
                 >
