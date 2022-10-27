@@ -17,7 +17,7 @@
           fuel the vision.</p>
 
         <p class="pb-5">We want to challenge you to make a one-time gift to the Vision Offering by November 20 so that
-          you part of
+          you can be a part of
           your church's significant next step!</p>
 
         <p class="pb-5">Here are three steps we want to resource & take in 2023:</p>
@@ -99,7 +99,7 @@
         class="rounded-md shadow-2xl"
       >
       <h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 3 - Maryville Location Expansion ($505,000)</h3>
-      <p class="text-xl pt-5">God has blessed & grown our Maryville location. But unfortunately, we are our parking!
+      <p class="text-xl pt-5">God has blessed & grown our Maryville location. But unfortunately, we are out of parking!
         Every Sunday, we park almost 100-150 cars off-site to create space for guests to attend our church. The bad news
         is that the lot is still full even as we park off-site. The good news is that there is plenty of acreage around
         our facility to accommodate growth. As we have diligently pursued the surrounding property, our elders believe
