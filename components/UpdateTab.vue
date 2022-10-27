@@ -12,20 +12,23 @@
           >
           <h5 class="uppercase font-bold text-2xl py-5">Update #1</h5>
           <hr>
-          <p class="py-3">Duis egestas pretium mauris, a consectetur quam tempor porta. Vivamus egestas nunc ut lacinia
-            hendrerit. Phasellus eu dui tellus. Sed ex elit, finibus ullamcorper consequat sit amet, tincidunt vitae
-            orci. Nulla mollis nisi orci, a consequat quam vehicula id. In tincidunt arcu diam, eget tempus sapien
-            euismod hendrerit. Curabitur lobortis risus non augue semper, eu malesuada nulla dictum. Vestibulum semper
-            diam ac orci ornare ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-            turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-            egestas. Integer interdum nulla odio, varius fringilla dui feugiat et.</p>
-          <p class = "pb-3">We are doing these things now:</p>
-          <ul class = "font-bold list-disc list-inside">
-            <li>Do a certain thing</li>
-            <li>Get Jordan a drone</li>
-            <li>Profit</li>
-          </ul>
-          <p class = "py-3">Aliquam id augue id neque vulputate egestas a sed dolor. Quisque finibus finibus magna ac faucibus. Mauris sodales metus vel quam tempus, tincidunt imperdiet lectus vulputate. Nullam interdum at odio sit amet feugiat. Proin pulvinar, lectus ut mattis laoreet, metus sapien lacinia leo, ac vehicula augue metus sed dui. Aenean mollis in magna finibus imperdiet. Donec hendrerit tellus at felis blandit gravida. Maecenas sed elementum neque, sed rutrum odio. Nunc risus ante, consectetur in porttitor vitae, tempus sit amet erat. Praesent sit amet viverra ex, eget semper leo. Fusce cursus sapien vitae arcu ullamcorper sagittis. Fusce tellus elit, imperdiet vel erat sed, hendrerit fermentum leo. Nulla efficitur arcu hendrerit nulla porttitor viverra. Quisque ac urna at tortor aliquet porttitor non at mi.</p>
+          <p class="py-3">We believe that God is calling each of us to take our next step here at Foothills Church. Our
+            Vision Offering is a unique opportunity to answer God's call. The Vision Offering is an opportunity to give
+            a one-time gift over and above our regular contributions to fuel God's vision. This year, we have three
+            goals that we want to encourage you to pray for and give toward. </p>
+
+          <p class="py-3">First, we hope to raise <span class = "font-bold">$374,000</span> to
+            renovate the new home of our Knoxville location. God provided the space, but we now need to turn a movie
+            theater into a church. Second, we have a dream to start a counseling center to address the many spiritual
+            and relational needs in our community. </p>
+          <p class="py-3">We believe that if we can raise <span class = "font-bold">$225,000</span>, we can take our next step
+            to hire staff, purchase resources, and address the many start-up cost required with a new ministry. </p>
+
+          <p class="py-3">Finally, we are diligently pursuing property surrounding our Maryville location to provide space for more parking. We
+            believe we need to raise <span class = "font-bold">$505,000</span> in order to do this. With all three of these goals, the total monetary
+            goal is $1,100,000. That may sound like an extraordinary number to you. But God is not intimidated by that
+            number. We can do this! But it will take faith, sacrifice, and commitment to take our next step. Let’s give
+            to the Vision Offering and see what God will do.</p>
         </div>
 
       </div>
