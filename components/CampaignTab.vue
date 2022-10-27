@@ -77,6 +77,7 @@
       <p class="text-xl pt-5">God gives the mission. Our elders set the vision. But you get to decide if we can take our
         next step as a church! Our miracle prayer is that we will raise $1,100,000 during our Vision Offering to take
         the next step toward making disciples in our communities! </p>
+      <XLButton/>
     </div>
   </div>
 
