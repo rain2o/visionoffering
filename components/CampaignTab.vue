@@ -22,7 +22,7 @@
 
         <p class="pb-5">Here are three steps we want to resource & take in 2023:</p>
         <img
-          src="~/static/images/campaign/worship.jpg"
+          src="~/static/images/campaign/goals.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
@@ -30,28 +30,52 @@
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/goal-1.jpg"
+          src="~/static/images/campaign/g1-header.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
         <h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 1 - Knoxville Location Renovation ($374,000)</h3>
-        <p class="text-xl pt-5">In 2022 Foothills Church secured a lease of a permanent space for our Knoxville location
+        <p class="text-xl pt-5 mb-10">In 2022 Foothills Church secured a lease of a permanent space for our Knoxville
+          location
           at the former Dollar Movie Theater in Knoxville. The area is 22,860 sq ft with ample parking & room for
           growth. The challenge is that we know we must turn a theater into a church. Your one-time gift by November 20
           to the vision offering will create a space for kids, students, and adults to worship Jesus & experience life
           change. By giving to the vision offering, you will be part of developing mature disciples of Christ in the
           Knoxville community. </p>
+
+        <div class="col-span-12 pb-10">
+          <img
+            src="~/static/images/campaign/g1-drone.jpg"
+            alt="icon"
+            class="rounded-md shadow-2xl"
+          >
+        </div>
+        <div class="col-span-12 pb-10">
+          <img
+            src="~/static/images/campaign/g1-mockup-1.jpg"
+            alt="icon"
+            class="rounded-md shadow-2xl"
+          >
+        </div>
+        <div class="col-span-12 pb-10">
+          <img
+            src="~/static/images/campaign/g1-mockup-2.jpg"
+            alt="icon"
+            class="rounded-md shadow-2xl"
+          >
+        </div>
       </div>
 
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/goal-1.jpg"
+          src="~/static/images/campaign/g1-header.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
         <h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 2 - Counseling Ministry Start-Up ($225,000)</h3>
-        <p class="text-xl pt-5">Did you know Blount County has only 11 counseling centers for 131,000+ people? Not to
+        <p class="text-xl pt-5 pb-10">Did you know Blount County has only 11 counseling centers for 131,000+ people? Not
+          to
           mention, only one of them classifies as biblical counseling! Our church has dreamed of starting a counseling
           center to address the many spiritual & relational needs in our community for years. But to do that, it will
           take approximately $225,000 to hire staff, acquire training, and address the many logistical challenges of a
@@ -60,9 +84,17 @@
       </div>
     </div>
 
+    <div class="col-span-12 pb-10">
+      <img
+        src="~/static/images/campaign/g2-counseling.jpg"
+        alt="icon"
+        class="rounded-md shadow-2xl"
+      >
+    </div>
+
     <div class="col-span-12 pt-10">
       <img
-        src="~/static/images/campaign/goal-1.jpg"
+        src="~/static/images/campaign/g1-header.jpg"
         alt="icon"
         class="rounded-md shadow-2xl"
       >
@@ -73,7 +105,24 @@
         our facility to accommodate growth. As we have diligently pursued the surrounding property, our elders believe
         in purchasing three acres; we will need an additional $505,000. Your one-time gift by November 20 will fuel the
         expansion of our Maryville location. </p>
+    </div>
 
+    <div class="col-span-12 pb-10 pt-10">
+      <img
+        src="~/static/images/campaign/g3-exterior.jpg"
+        alt="icon"
+        class="rounded-md shadow-2xl"
+      >
+    </div>
+
+    <div class="col-span-12 pb-10">
+      <img
+        src="~/static/images/campaign/g3-land.jpg"
+        alt="icon"
+        class="rounded-md shadow-2xl"
+      >
+    </div>
+    <div class="col-span-12">
       <p class="text-xl pt-5">God gives the mission. Our elders set the vision. But you get to decide if we can take our
         next step as a church! Our miracle prayer is that we will raise $1,100,000 during our Vision Offering to take
         the next step toward making disciples in our communities! </p>

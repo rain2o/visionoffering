@@ -6,7 +6,7 @@
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-              src="/images/icon.png"
+              src="/images/icons/tools.png"
               alt="icon"
               class="icon-width m-3"
             >
@@ -14,10 +14,10 @@
           </div>
         </div>
 
-        <div class="col-span-12 lg:col-span-4">
+        <div class="col-span-12 lg:col-span-4 opacity-40">
           <div class="box">
             <img
-              src="/images/icon.png"
+              src="/images/icons/heart.png"
               alt="icon"
               class="icon-width m-3"
             >
@@ -25,11 +25,11 @@
           </div>
         </div>
 
-        <div class="col-span-12 lg:col-span-4">
+        <div class="col-span-12 lg:col-span-4 opacity-40">
           <div class="box">
             <img
-              src="/images/icon.png"
-              alt="i
+              src="/images/icons/cars.png"
+              alt="icon"
               class="icon-width m-3"
             >
             <span class="text-left"><strong>Goal #3: $1,104,000</strong> <br />Maryville Location Expansion</span>
