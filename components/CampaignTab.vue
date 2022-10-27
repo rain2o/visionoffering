@@ -69,7 +69,7 @@
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/g1-header.jpg"
+          src="~/static/images/campaign/g2-header.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
@@ -94,7 +94,7 @@
 
     <div class="col-span-12 pt-10">
       <img
-        src="~/static/images/campaign/g1-header.jpg"
+        src="~/static/images/campaign/g3-header.jpg"
         alt="icon"
         class="rounded-md shadow-2xl"
       >
