@@ -91,7 +91,7 @@ const getVisionFundPaymentIntents = async (startDate) => {
   const response = await stripe.paymentIntents.search({
     query: `status:'succeeded' AND metadata['planning_center_app']:'Giving' AND created>${startDate} AND created<${END_DATE}`,
     // Any more than this and we run into timeout issues. Netlify limits functions to 10 second timeout.
-    limit: 80,
+    limit: 10,
   });
   return response.data.filter(({ metadata }) => metadata.planning_center_context.includes('"name":"Vision Fund"'));
 }
