@@ -22,7 +22,7 @@
 
         <p class="pb-5">Here are three steps we want to resource & take in 2023:</p>
         <img
-          src="~/static/images/campaign/goals.jpg"
+          src="~/static/images/campaign/goals-3.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
@@ -30,7 +30,7 @@
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/g1-header.jpg"
+          src="~/static/images/campaign/g1-vo.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
@@ -69,7 +69,7 @@
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/g2-header.jpg"
+          src="~/static/images/campaign/g2-vo.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
@@ -94,7 +94,7 @@
 
     <div class="col-span-12 pt-10">
       <img
-        src="~/static/images/campaign/g3-header.jpg"
+        src="~/static/images/campaign/g3-vo.jpg"
         alt="icon"
         class="rounded-md shadow-2xl"
       >
