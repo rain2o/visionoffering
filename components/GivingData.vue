@@ -30,7 +30,8 @@ export default {
     const { totalGiven, totalGivers } = await this.$axios.$get(
       '/.netlify/functions/giving-data'
     )
-    this.givingAmount = Number(totalGiven / 100 || 0)
+    // This is where you update the number of supplement from checks and physical cash.
+    this.givingAmount = Number(totalGiven / 100 + 36772 || 0)
     this.numberOfGivers = Number(totalGivers || 0)
   },
   fetchOnServer: false,
