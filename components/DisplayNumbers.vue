@@ -62,7 +62,7 @@ export default {
   computed: {
     daysRemaining() {
       const today = new Date();
-      const end = new Date("2022-11-20");
+      const end = new Date("2022-11-21");
       const millisecondsInDay = 1000*60*60*24;
       const diff = end.getTime() - today.getTime();
       return Math.ceil(diff / millisecondsInDay);
