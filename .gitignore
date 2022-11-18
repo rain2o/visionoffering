@@ -94,6 +94,6 @@ sw.*
 
 
 # More Yarn Stuff
-.yarn
+/.yarn
 /.yarn/unplugged
 .yarn/cache
