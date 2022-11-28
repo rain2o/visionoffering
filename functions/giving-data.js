@@ -13,7 +13,7 @@ const stripe = Stripe(key, { apiVersion: "2020-08-27" });
 
 // Date range (exclusive), change as needed (Stripe uses seconds for this value)
 const START_DATE = new Date("2022-10-24").valueOf() / 1000
-const END_DATE = new Date("2022-11-21").valueOf() / 1000
+const END_DATE = new Date("2022-12-31").valueOf() / 1000
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 export async function handler() {
