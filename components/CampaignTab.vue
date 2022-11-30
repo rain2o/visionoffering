@@ -30,11 +30,11 @@
 
       <div class="col-span-12 pt-10">
         <img
-          src="~/static/images/campaign/g1-vo.jpg"
+          src="~/static/images/campaign/g1-vo-up.jpg"
           alt="icon"
           class="rounded-md shadow-2xl"
         >
-        <h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 1 - Knoxville Location Renovation ($374,000)</h3>
+        <h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 1 - Knoxville Location Renovation ($370,000)</h3>
         <p class="text-xl pt-5 mb-10">In 2022 Foothills Church secured a lease of a permanent space for our Knoxville
           location
           at the former Dollar Movie Theater in Knoxville. The area is 22,860 sq ft with ample parking & room for

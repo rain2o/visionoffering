@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       givingAmount: undefined,
-      givingGoal: 374000,
+      givingGoal: 370000,
       numberOfGivers: undefined,
     }
   },
