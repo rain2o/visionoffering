@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       givingAmount: undefined,
-      givingGoal: 370000,
+      givingGoal: 599000,
       numberOfGivers: undefined,
     }
   },
@@ -31,7 +31,7 @@ export default {
       '/.netlify/functions/giving-data'
     )
     // This is where you update the number of supplement from checks and physical cash.
-    this.givingAmount = Number(totalGiven / 100 - 11362 || 0)
+    this.givingAmount = Number(totalGiven / 100 || 0)
     this.numberOfGivers = Number(totalGivers + 174 || 0)
   },
   fetchOnServer: false,
