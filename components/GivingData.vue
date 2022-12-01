@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CompletedGoal/>
     <ProgressBar :giving-amount="givingAmount" :giving-goal="givingGoal" />
     <DisplayNumbers
       :giving-amount="givingAmount"

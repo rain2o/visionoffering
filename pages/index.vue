@@ -4,7 +4,7 @@
       <div class="mx-auto text-center lg:max-w-7xl pb-10">
         <div class="grid grid-cols-12 gap-4 md:px-5">
 
-          <div class="col-span-12 md:col-span-6 md:order-2">
+          <div class="col-span-12 md:col-span-8 md:order-2">
             <VideoPlayer/>
           </div>
 
@@ -16,7 +16,7 @@
           </div>
 
 
-          <div class="col-span-12 md:col-span-6 md:order-3">
+          <div class="col-span-12 md:col-span-4 md:order-3">
             <div class="px-2 lg:px-10">
               <GivingData/>
               <XLButton/>

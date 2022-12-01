@@ -25,7 +25,7 @@
       </p>
     </div>
 
-    <div class="pt-3 pb-3 lg:pb-28">
+    <div class="pt-3 pb-3">
       <h2 v-if="givers !== undefined" class="font-bold text-4xl">
         {{ givers }}
       </h2>
