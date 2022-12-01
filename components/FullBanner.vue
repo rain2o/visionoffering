@@ -6,7 +6,7 @@
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-              src="/images/icons/tools.png"
+              src="/images/icons/completed.png"
               alt="icon"
               class="icon-width m-3"
             >
@@ -21,7 +21,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>CURRENT: Goal #2 - $599,000</strong> <br />Counseling Ministry Start-Up </span>
+            <span class="text-left"><strong>CURRENT: Goal #2 - $225,000</strong> <br />Counseling Ministry Start-Up </span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Next: Goal #3: $1,104,000</strong> <br />Maryville Location Expansion</span>
+            <span class="text-left"><strong>Next: Goal #3: $505,000</strong> <br />Maryville Location Expansion</span>
           </div>
         </div>
       </div>
