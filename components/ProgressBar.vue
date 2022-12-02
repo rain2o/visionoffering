@@ -1,5 +1,5 @@
 <template>
-  <div class="progress-bar">
+  <div class="progress-bar mt-2">
     <v-app id="doesitmatter">
       <v-progress-linear
         v-if="givingAmount !== undefined"

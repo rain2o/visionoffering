@@ -15,17 +15,17 @@
       <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
 
       <p>
-        Given of
+        Total Given of
         {{
           Number(givingGoal).toLocaleString('en-US', {
             style: 'currency',
             currency: 'USD',
           })
-        }}
+        }} Goal
       </p>
     </div>
 
-    <div class="pt-3 pb-3">
+    <div class="pt-2 pb-2">
       <h2 v-if="givers !== undefined" class="font-bold text-4xl">
         {{ givers }}
       </h2>
