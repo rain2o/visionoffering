@@ -1,13 +1,6 @@
 <template>
   <div>
-    <div class="text-left">
-    <div class="progress-bar pb-5">
-      <v-progress-linear
-        background-color="#cccccc"
-        color="#234058"
-        value="100"
-        height="10"
-      ></v-progress-linear>
+    <div class="text-left opacity-30 mb-8">
 
       <h2
         class="text-blue font-bold text-4xl"
@@ -15,7 +8,7 @@
         $370,000
       </h2>
       <p>
-        ✅ Goal 1: $370,000.00
+        ✅ Goal 1: COMPLETE
       </p>
     </div>
     </div>

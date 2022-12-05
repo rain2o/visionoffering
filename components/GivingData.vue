@@ -31,7 +31,7 @@
         <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
 
         <p>
-          Given to Goal 2:
+          Goal 2:
           {{
             Number(givingSingleGoal).toLocaleString('en-US', {
               style: 'currency',

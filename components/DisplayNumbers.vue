@@ -1,6 +1,6 @@
 <template>
   <div class="text-left">
-    <div class="py-3">
+    <div class="py-3 mb-5">
       <h2
         v-if="givingAmount !== undefined"
         class="text-blue font-bold text-4xl"
@@ -15,17 +15,17 @@
       <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
 
       <p>
-        Total Given of
+       Total for all 3 goals:
         {{
           Number(givingGoal).toLocaleString('en-US', {
             style: 'currency',
             currency: 'USD',
           })
-        }} Goal
+        }}
       </p>
     </div>
 
-    <div class="pt-2 pb-2">
+    <div class="mb-3">
       <h2 v-if="givers !== undefined" class="font-bold text-4xl">
         {{ givers }}
       </h2>

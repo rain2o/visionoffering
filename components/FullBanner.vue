@@ -10,7 +10,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>COMPLETED: Goal #1 - $370,000</strong> <br />Knoxville Location Renovation</span>
+            <span class="text-left opacity-40"><strong>COMPLETED: Goal #1 - $370,000</strong> <br />Knoxville Location Renovation</span>
           </div>
         </div>
 
