@@ -24,12 +24,6 @@
 
         <hr>
         <div class="py-5">
-          <h5 class = "uppercase font-bold text-xl">If we do not reach goal one, will we still renovate the Knoxville location? </h5>
-          <p>Yes, within our upcoming fiscal year budget, we have accounted for payments of a loan to complete. Acquiring the note for the renovation create manageable yet uncomfortable stress on the other ministries at FC. In other words, we believe in Knoxville even if the result of the renovation is a period of uncomfortability. </p>
-        </div>
-
-        <hr>
-        <div class="py-5">
           <h5 class = "uppercase font-bold text-xl">Are we still building a physical counseling center? </h5>
           <p>It is our future hope to build a counseling center. Unfortunately, we do not believe this is the best use of resources right now. Instead, we will use our current Maryville location to house our new counseling ministry for the foreseeable future. </p>
         </div>
