@@ -5,10 +5,10 @@
       <h2
         class="text-blue font-bold text-4xl"
       >
-        $370,000
+        $595,000
       </h2>
       <p>
-        ✅ Goal 1: COMPLETE
+        ✅ Goal 1 and 2: COMPLETED
       </p>
     </div>
     </div>

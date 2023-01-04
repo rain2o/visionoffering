@@ -31,7 +31,7 @@
         <v-progress-circular v-else indeterminate :size="40" class="text-blue" />
 
         <p>
-          Goal 2:
+          Goal 3:
           {{
             Number(givingSingleGoal).toLocaleString('en-US', {
               style: 'currency',
@@ -69,7 +69,7 @@ export default {
       givingAmount: undefined,
       givingSingleAmount: undefined,
       givingGoal: 1100000,
-      givingSingleGoal: 225000,
+      givingSingleGoal: 505000,
       numberOfGivers: undefined,
     }
   },
@@ -80,7 +80,7 @@ export default {
     // This is where you update the number of supplement from checks and physical cash.
     this.givingAmount = Number(totalGiven / 100 || 0)
     this.numberOfGivers = Number(totalGivers + 174 || 0)
-    this.givingSingleAmount = Number(totalGiven / 100 - 370000 || 0)
+    this.givingSingleAmount = Number(totalGiven / 100 - 595000 || 0)
   },
   fetchOnServer: false,
   computed: {

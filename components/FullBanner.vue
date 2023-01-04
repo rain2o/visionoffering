@@ -17,22 +17,22 @@
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-              src="/images/icons/heart.png"
+				src="/images/icons/completed.png"
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>CURRENT: Goal #2 - $225,000</strong> <br />Counseling Ministry Start-Up </span>
+            <span class="text-left opacity-40"><strong>COMPLETED: Goal #2 - $225,000</strong> <br />Counseling Ministry Start-Up </span>
           </div>
         </div>
 
-        <div class="col-span-12 lg:col-span-4 opacity-40">
+        <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
               src="/images/icons/cars.png"
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Next: Goal #3: $505,000</strong> <br />Maryville Location Expansion</span>
+            <span class="text-left"><strong>CURRENT: Goal #3: $505,000</strong> <br />Maryville Location Expansion</span>
           </div>
         </div>
       </div>
