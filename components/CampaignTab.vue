@@ -135,7 +135,7 @@
 			>
 		</div>
 		<div class="col-span-12">
-			<p class="text-xl pt-5">God gives the mission. Our elders set the vision. But you get to decide if we can
+			<p class="text-xl pt-5 pb-3">God gives the mission. Our elders set the vision. But you get to decide if we can
 				take our
 				next step as a church! Our miracle prayer is that we will raise $1,100,000 during our Vision Offering to
 				take
