@@ -6,33 +6,33 @@
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-              src="/images/icons/completed.png"
+              src="/images/icons/heart.png"
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left opacity-40"><strong>COMPLETED: Goal #1 - $370,000</strong> <br />Knoxville Location Renovation</span>
+            <span class="text-left"><strong>CURRENT: Goal #1 - $50,000</strong> <br />Give to Outreach</span>
           </div>
         </div>
 
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-				src="/images/icons/completed.png"
+				src="/images/icons/cars.png"
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left opacity-40"><strong>COMPLETED: Goal #2 - $225,000</strong> <br />Counseling Ministry Start-Up </span>
+            <span class="text-left"><strong>Goal #2 - $600,000</strong> <br />Maryville Location Expansion </span>
           </div>
         </div>
 
         <div class="col-span-12 lg:col-span-4">
           <div class="box">
             <img
-              src="/images/icons/cars.png"
+              src="/images/icons/tools.png"
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>CURRENT: Goal #3: $505,000</strong> <br />Maryville Location Expansion</span>
+            <span class="text-left"><strong>Goal #3: $1,000,000</strong> <br />Knoxville Location Expansion</span>
           </div>
         </div>
       </div>
