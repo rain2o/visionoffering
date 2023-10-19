@@ -10,7 +10,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>CURRENT: Goal #1 - $50,000</strong> <br />Give to Outreach</span>
+            <span class="text-left"><strong>CURRENT: Goal #1 - $94,500</strong> <br />Give to Outreach</span>
           </div>
         </div>
 
