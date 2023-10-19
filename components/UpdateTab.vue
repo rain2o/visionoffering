@@ -3,36 +3,6 @@
 		<div class="grid grid-cols-12 gap-4">
 			<div class="col-span-12">
 				<h3 class=" uppercase bold text-2xl pb-5">Updates</h3>
-
-				<div class="py-5">
-					<img
-						src="~/static/images/updates/update-2.jpg"
-						alt="icon"
-						class="rounded-md shadow-2xl"
-					>
-					<h5 class="uppercase font-bold text-2xl py-5">Update #2</h5>
-					<hr>
-					<p class="py-3">We have challenged everyone who calls Foothills Church home to consider giving a
-						one-time gift over and above our regular contributions to fuel three strategic goals for 2023.
-						Our church has stepped up in a truly incredible way! We are excited to have <span
-							class="font-bold">completed our first
-							goal of $370,000</span> for our Knoxville Location Renovation!</p>
-
-					<p class="py-3">Now our focus shifts to our Counseling Ministry Start-Up. We know that there are
-						still many who haven’t given yet. Maybe you have felt compelled to give and have yet to take
-						that step, or maybe this morning, you feel like God is calling you to support the vision. We
-						want to encourage you to pray about supporting the vision. </p>
-
-					<p class="py-3">You can give one of three ways, you can give in person at one of our physical giving
-						stations at your location, you can give here online, or you can even give a tax-exempt transfer
-						stock.</p>
-
-					<p class="py-3">We can do this! But it will take faith, sacrifice, and commitment to take our next
-						step. Let’s give to the Vision Offering and see what God will do. You can continue to check back
-						on this site to see how God is using our generosity to fuel the vision. </p>
-
-				</div>
-
 				<div class="py-5">
 					<img
 						src="~/static/images/updates/update-initial.jpg"
