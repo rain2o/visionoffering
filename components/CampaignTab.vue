@@ -27,13 +27,13 @@
 			</div>
 
 			<div class="col-span-12 pt-10">
-				<!--				<img
-									src="~/static/images/campaign/g1-vo-up.jpg"
-									alt="icon"
-									class="rounded-md shadow-2xl"
-								>-->
-				<h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 1 - Header Image: Focus On The Theme “bless”
-					($50,000)</h3>
+				<img
+					src="~/static/images/campaign/g1-vo.jpg"
+					alt="icon"
+					class="rounded-md shadow-2xl"
+				>
+				<h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 1 - Bless Outreach Ministries
+					($94,500)</h3>
 				<p class="pt-5">Together, we will Financially Bless a variety of local and global
 					ministries that have had a huge impact on the mission of God. We always strive to be a generous
 					church that provides resources to faithful ministries. Our goal is to continue that generosity by
@@ -50,24 +50,15 @@
 				<p class="pt-2">We want to continue to support a variety of local organizations like the
 					Pregnancy Resource Center, Fellowship of Christian Athletes, Hope Resources Center, our Orphan Care
 					Ministries, and Sex Trafficking organizations.</p>
-
-				<!--				PUT ANY IMAGES HERE
-									<div class="col-span-12 pb-10">
-									<img
-										src="~/static/images/campaign/g1-drone.jpg"
-										alt="icon"
-										class="rounded-md shadow-2xl"
-									>
-								</div>-->
 			</div>
 
 
 			<div class="col-span-12 pt-10">
-				<!--				<img
-									src="~/static/images/campaign/g2-vo.jpg"
-									alt="icon"
-									class="rounded-md shadow-2xl"
-								>-->
+				<img
+					src="~/static/images/campaign/g2-vo.jpg"
+					alt="icon"
+					class="rounded-md shadow-2xl"
+				>
 				<h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 2 - Header Image: Focus On The Theme “expand”
 					($600,000)</h3>
 				<h4 class="capitalize text-xl pt-10 font-bold">Together we can expand</h4>
@@ -87,11 +78,11 @@
 
 
 		<div class="col-span-12 pt-10">
-			<!--			<img
-							src="~/static/images/campaign/g3-vo.jpg"
-							alt="icon"
-							class="rounded-md shadow-2xl"
-						>-->
+			<img
+				src="~/static/images/campaign/g3-vo.jpg"
+				alt="icon"
+				class="rounded-md shadow-2xl"
+			>
 			<h3 class="uppercase bold text-2xl pt-10 font-bold">Goal 3 - Header Image: Focus On The Theme “expand”
 				($1,000,000)</h3>
 			<h4 class="capitalize text-xl pt-10 font-bold">One Church in two locations</h4>

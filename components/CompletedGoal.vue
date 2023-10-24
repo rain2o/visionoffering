@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-left opacity-30 mb-8">
+<!--    <div class="text-left opacity-30 mb-8">
 
       <h2
         class="text-blue font-bold text-4xl"
@@ -11,7 +11,7 @@
         ✅ Goal 1 and 2: COMPLETED
       </p>
     </div>
-    </div>
+    </div>-->
 
   </div>
 </template>

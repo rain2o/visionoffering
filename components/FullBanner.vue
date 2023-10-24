@@ -10,7 +10,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>CURRENT: Goal #1 - $94,500</strong> <br />Give to Outreach</span>
+            <span class="text-left"><strong>CURRENT: Goal #1 - $94,500</strong> <br />Bless Outreach Minisries</span>
           </div>
         </div>
 
@@ -21,7 +21,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Goal #2 - $600,000</strong> <br />Maryville Location Expansion </span>
+            <span class="text-left"><strong>Goal #2 - $600,000</strong> <br />Expand Maryville Parking </span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
               alt="icon"
               class="icon-width m-3"
             >
-            <span class="text-left"><strong>Goal #3: $1,000,000</strong> <br />Knoxville Location Expansion</span>
+            <span class="text-left"><strong>Goal #3: $1,000,000</strong> <br />Expand Knoxville Location</span>
           </div>
         </div>
       </div>

@@ -72,10 +72,10 @@ export default {
   },
   head() {
     return {
-      title: "Foothills Church Vision Offering 2022",
+      title: "Foothills Church Vision Offering 2023",
       meta:[
-        { hid: 'og-type', property: 'og:type', content: 'The Vision Offering 2022' },
-        { hid: 'og-desc', property: 'og:description', content: 'Together we can take our next step as a church by giving a one-time gift to the vision offering.' },
+        { hid: 'og-type', property: 'og:type', content: 'The Vision Offering 2023' },
+        { hid: 'og-desc', property: 'og:description', content: 'Together we can take our next step as a church by giving to the vision offering.' },
         { hid: 'og-image', property: 'og:image',
           content: '/images/vo-main.jpg'
         },
