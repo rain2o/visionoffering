@@ -68,8 +68,8 @@ export default {
     return {
       givingAmount: undefined,
       givingSingleAmount: undefined,
-      givingGoal: 1100000,
-      givingSingleGoal: 505000,
+      givingGoal: 1694500,
+      givingSingleGoal: 94500,
       numberOfGivers: undefined,
     }
   },
