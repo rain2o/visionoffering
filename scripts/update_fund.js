@@ -10,6 +10,17 @@ const client = new Redis(`rediss://default:${redisPass}@${redisHost}`);
 
 const args = process.argv.slice(2);
 
+/**
+ * This script updates redis by adding the given value to the
+ * existing value in redis. This does NOT reset the value, but
+ * adds to it.
+ *
+ * To use it, run `node scripts/update_fund.js 123.45`
+ * where "123.45" is a numeric value that you wish to add
+ * to the existing total. If you don't have change to add,
+ * you can use a full number like "123".
+ * @param {Number} valueToAdd
+ */
 async function updateFund(valueToAdd) {
   const result = await client.get('vision_fund')
   if (result) {
