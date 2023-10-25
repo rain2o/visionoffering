@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header style="background-color: #234058;">
+    <header>
       <nuxt-link to="/">
         <img
           src="/images/logo.png"
