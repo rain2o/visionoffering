@@ -79,8 +79,8 @@ export default {
     )
     // This is where you update the number of supplement from checks and physical cash.
     this.givingAmount = Number(totalGiven / 100 || 0)
-    this.numberOfGivers = Number(totalGivers + 174 || 0)
-    this.givingSingleAmount = Number(totalGiven / 100 - 595000 || 0)
+    this.numberOfGivers = Number(totalGivers || 0)
+    this.givingSingleAmount = Number(totalGiven / 100 || 0)
   },
   fetchOnServer: false,
   computed: {
