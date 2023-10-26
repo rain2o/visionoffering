@@ -9,44 +9,12 @@
 						alt="icon"
 						class="rounded-md shadow-2xl"
 					>
-					<h5 class="uppercase font-bold text-2xl py-5">Update #1</h5>
+					<h5 class="uppercase font-bold text-2xl py-5">Initial Update</h5>
+					<h6 class="uppercase font-bold text-lg pb-2">October 29, 2023</h6>
 					<hr>
-					<p class="py-3">We believe that God is calling each of us to take our next step here at Foothills
-						Church. Our
-						Vision Offering is a unique opportunity to answer God's call. The Vision Offering is an
-						opportunity to give
-						a one-time gift over and above our regular contributions to fuel God's vision. This year, we
-						have three
-						goals that we want to encourage you to pray for and give toward. </p>
-
-					<p class="py-3">First, we hope to raise <span class="font-bold">$374,000</span> to
-						renovate the new home of our Knoxville location. God provided the space, but we now need to turn
-						a movie
-						theater into a church. Second, we have a dream to start a counseling center to address the many
-						spiritual
-						and relational needs in our community. </p>
-					<p class="py-3">We believe that if we can raise <span class="font-bold">$225,000</span>, we can take
-						our next
-						step
-						to hire staff, purchase resources, and address the many start-up cost required with a new
-						ministry. </p>
-
-					<p class="py-3">Finally, we are diligently pursuing property surrounding our Maryville location to
-						provide
-						space for more parking. We
-						believe we need to raise <span class="font-bold">$505,000</span> in order to do this. With all
-						three of
-						these goals, the total monetary
-						goal is $1,100,000. That may sound like an extraordinary number to you, but God is not
-						intimidated by that
-						number. </p>
-
-					<p class="py-3"><span class="font-bold">We can do this!</span> But it will take faith, sacrifice,
-						and commitment to take our next step. Let’s give
-						to the Vision Offering by November 20th and see what God will do. You can prayerfully check back
-						on this
-						page for updates on our goals and to see how God is using our generosity to fuel the vision.</p>
-				</div>
+					<p class="py-3">We want to invite you to embrace the opportunity to go above and beyond your regular commitment to fuel the vision of Foothills Church. We're challenging you to prayerfully consider making both a one-time gift and an ongoing commitment to the Vision Offering so that together, we can invest in the future of Foothills Church.</p>
+					<p class="py-3">We are incredibly excited to see how God will work through our generosity, and we're convinced that, as we work together, amazing things will happen. So stay tuned and check back on this tab for more updates as we make progress toward our goals and unveil exciting announcements. The journey begins now, and we can't wait to see where it takes us – together!</p>
+					</div>
 
 			</div>
 		</div>

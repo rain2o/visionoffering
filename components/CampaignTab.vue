@@ -5,18 +5,18 @@
 
 			<div class="col-span-12">
 				<h3 class=" uppercase bold text-2xl pb-5">We can go further, faster together</h3>
-				<p class="pb-5">The heartbeat of our vision as a church lies in the profound calling to make disciples
-					and share the transformative message of Jesus Christ. As Christians, we recognize that this
-					responsibility doesn't rest solely on the shoulders of a few, but rather, it's a collective duty
-					that unites us as a church family. As we step into this new year, our focus remains steadfast on the
-					twin pillars of blessing and expansion, two intertwined pursuits that reflect our dedication to
-					fulfilling God's purpose for us. </p>
+				<p class="pb-5">The heartbeat of our vision as a church lies in our calling to share the gospel and make
+					disciples of Jesus Christ. As Christians, we recognize that this responsibility doesn't rest solely
+					on the shoulders of a few, but rather, it's a collective duty that unites us as a church family. As
+					we step into this new year, our focus remains steadfast on the twin pillars of blessing and
+					expansion, two intertwined pursuits that reflect our dedication to fulfilling God's purpose for
+					us. </p>
 
 				<p class="pb-5">Below, we will explore the three primary areas where we believe God is leading us in the
-					coming year. Together, we will embrace the opportunity to be willing to give over & above our
-					regular commitment to fuel the vision. We want to challenge you to make a one-time gift and an
-					ongoing commitment to the Vision Offering so that you can continue to invest in the vision of
-					Foothills Church!</p>
+					coming year. Together, we can embrace the opportunity to be willing to give over & above our regular
+					commitment to fuel the vision. We want to challenge you to make a one-time gift and an ongoing
+					commitment to the Vision Offering so that you can continue to invest in the vision of Foothills
+					Church!</p>
 
 				<p class="pb-5">Here are three steps we want to resource & take in 2024:</p>
 				<img
@@ -47,9 +47,15 @@
 					serving the poorest communities in the world in both Haiti and Africa. </p>
 
 				<h4 class=" capitalize text-xl pt-10 font-bold">Local Outreach</h4>
-				<p class="pt-2">We want to continue to support a variety of local organizations like the
-					Pregnancy Resource Center, Fellowship of Christian Athletes, Hope Resources Center, our Orphan Care
-					Ministries, and Sex Trafficking organizations.</p>
+				<p class="pt-2">We want to continue to support a variety of local organizations like the Pregnancy
+					Resource Center, Fellowship of Christian Athletes, Hope Resources Center, our Orphan Care
+					Ministries, and sex trafficking organizations.</p>
+				<h4 class="pt-5">See our full list of all the local ministries we support:</h4>
+				<a href="https://foothillschurch.com/outreach/">
+					<button class="mx-auto mt-3 lg:mx-0 w-full hover:underline bg-blue text-white font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+						View All Ministries
+					</button>
+				</a>
 			</div>
 
 
@@ -59,8 +65,7 @@
 					alt="icon"
 					class="rounded-md shadow-2xl"
 				>
-				<h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 2 - Header Image: Focus On The Theme “expand”
-					($600,000)</h3>
+				<h3 class=" uppercase bold text-2xl pt-10 font-bold">Goal 2 - Expand Maryville Parking ($600,000)</h3>
 				<h4 class="capitalize text-xl pt-10 font-bold">Together we can expand</h4>
 				<p class="pt-5">Our primary need at our Maryville Location is space for parking. We consistently fill
 					our parking lot, which makes it difficult to have space to welcome guests to FC. </p>
@@ -83,7 +88,7 @@
 				alt="icon"
 				class="rounded-md shadow-2xl"
 			>
-			<h3 class="uppercase bold text-2xl pt-10 font-bold">Goal 3 - Header Image: Focus On The Theme “expand”
+			<h3 class="uppercase bold text-2xl pt-10 font-bold">Goal 3 - Expand Knoxville Location
 				($1,000,000)</h3>
 			<h4 class="capitalize text-xl pt-10 font-bold">One Church in two locations</h4>
 			<p class="pt-5">We started our Knoxville location 2 years ago, and in this last year, we renovated a movie
@@ -96,15 +101,11 @@
 		</div>
 
 		<div class="col-span-12">
-			<p class=" pt-5 pb-3">With all three combined the total goal is $1,694,500 million. This may sound like an
-				extraordinary number to you, but God is not intimidated by that number. And neither should we. God can
-				provide, but each of us will have to step out in faith and give.</p>
+			<p class=" pt-5 pb-3">With all three combined the total goal is $1,694,500 million. This may sound like an extraordinary number to you, but God is not intimidated by that number. And neither should we be.  God can provide, but each of us will have to step out in faith and give.</p>
 
-			<p class=" pt-5 pb-3">We want to encourage you to pray and give toward our Vision Offering. This offering is
-				a one-time gift and an ongoing commitment to give in 2024.</p>
+			<p class=" pt-5 pb-3">We want to encourage you to pray and give toward our Vision Offering. This offering is a one-time gift and an ongoing commitment to give in 2024.</p>
 
-			<p class=" pt-5 pb-3">Together, we can do this! But it will take prayer, faith, and sacrifice. Let’s give to
-				the vision offering & let's watch God work.
+			<p class=" pt-5 pb-3">Together, we can do this! But it will take prayer, faith, and sacrifice. Let’s give to the vision offering & let's watch God work.
 			</p>
 			<XLButton/>
 		</div>
