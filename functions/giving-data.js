@@ -14,7 +14,7 @@ const stripe = Stripe(key, { apiVersion: "2020-08-27" });
 // Date range (exclusive), change as needed (Stripe uses seconds for this value)
 // NOTE: if you change start date, you might need to run the reset script if its current date is after the start date
 // TODO: Synchronize these dates with the script. Probably will need to use ENV vars or a global constant
-const START_DATE = new Date("2023-10-30").valueOf() / 1000
+const START_DATE = new Date("2023-10-23").valueOf() / 1000
 const END_DATE = new Date("2024-04-30").valueOf() / 1000
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
