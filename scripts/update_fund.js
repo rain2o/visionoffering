@@ -106,8 +106,8 @@ async function resetFund(date) {
   const data = {
     totalGiven: 0,
     totalGivers: 0,
-    // date in milliseconds
-    lastDonation: date,
+    // date in seconds
+    lastDonation: date / 1000,
   }
   await handleSet(data)
 }
